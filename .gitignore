@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# Environments
+.env
+*.env
+
+# VSCode specific
+.vscode/
+*.code-workspace
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+
+# Virtual Environments
+venv/
+env/
+env.bak/
+venv.bak/
+
+# pyenv
+.python-version
+
+# Node.js (if using npm for front-end packages)
+node_modules/
+
+# Static and media files
+staticfiles/
+media/
+
+# Pylint and other Python tools
+pylint.log
+pylint.d
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# JetBrains IDEs (like PyCharm) - if you use these in addition to VSCode
+.idea/
+*.iml
